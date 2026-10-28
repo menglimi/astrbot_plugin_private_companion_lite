@@ -1,0 +1,23 @@
+name: astrbot_plugin_private_companion
+display_name: 我会永远陪着你 Lite
+author: menglimi
+version: 7.0.0+lite
+repo: https://github.com/menglimi/astrbot_plugin_private_companion_lite
+description: 7.0.0lite 核心陪伴版，保留聊天、记忆、生活、日程、主动联系与语音。配置由 AstrBot 插件配置页管理，不包含七项拓展能力和陪伴小屋。
+desc: 轻量陪伴版，保留核心对话与生活记忆，通过 AstrBot 配置页管理。
+help: |
+  私聊：陪伴 帮助 / 状态 / 日程 / 日记 / 梦境 / 记忆 <线索> / 主动判定
+  群聊：陪伴群 帮助 / 状态 / 话题 / 黑话 <词> / 片段 <线索>
+  companion_bind 显示当前平台、Bot 和参与者的配置资料。
+  管理员在插件配置中添加账号与会话、人格映射，开启接管并保存重载。
+  高级配置请参考分支中的 docs/LITE_CONFIGURATION.md。
+category: AI 增强
+tags:
+  - 陪伴
+  - 角色扮演
+  - Lite
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - qq_official_webhook
+astrbot_version: ">=4.27.2"
